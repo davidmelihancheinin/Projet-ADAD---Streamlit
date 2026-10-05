@@ -1,6 +1,8 @@
 # **Peut-on identifier des profils sociologiques plus perméables aux théories du complot ?**
 
-Un dashboard interactif sur les Français, l'information et les théories du complot
+Un dashboard interactif sur les Français, l'information et les théories du complot.
+
+**Le dashboard est accessible à l'adresse suivante :** https://projet-adad---app-imdbedki75azuwwnzdtv5r.streamlit.app
 
 _Ce projet a été réalisé par David MELIHAN, Hamza ZAHRAOUI et Swann ROBERT, dans le cadre de l'Open Data University, programme créé par Latitudes._
 
