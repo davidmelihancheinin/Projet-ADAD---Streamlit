@@ -1,19 +1,20 @@
-**PEUT-ON IDENTIFIER DES PROFILS SOCIOLOGIQUES PLUS PERMÉABLES AUX THÉORIES DU COMPLOT ?**
+# **Peut-on identifier des profils sociologiques plus perméables aux théories du complot ?**
 
 Un dashboard interactif sur les Français, l'information et les théories du complot
+
 _Ce projet a été réalisé par David MELIHAN, Hamza ZAHRAOUI et Swann ROBERT, dans le cadre de l'Open Data University, programme créé par Latitudes._
 
-**En une phrase**
+## **En une phrase**
 
 Ce dashboard explore l'enquête « Les Français et l'information » (ARCOM, 2024) et pose une question simple : les personnes qui adhèrent aux théories du complot ne s'informent-elles pas, ou s'informent-elles autrement ?
 
 
-**L'idée de départ**
+## **L'idée de départ**
 
 On parle beaucoup de désinformation, mais rarement des personnes concernées : qui sont-elles, que pensent-elles des médias, où consultent-elles l'actualité, pour qui votent-elles ?
 Plutôt que de raisonner à partir d'idées reçues, ce projet part des données d'une grande enquête nationale et les met en scène de manière visuelle et interactive. Chacun peut explorer les chiffres à son rythme, changer de variable, filtrer les groupes, et se faire sa propre idée.
 
-**Le principe : trois groupes à comparer**
+## **Le principe : trois groupes à comparer**
 
 Les répondants de l'enquête ont été interrogés sur 8 affirmations, dont certaines sont avérées et d'autres fausses (alunissage, origine du Covid, 11 septembre, vaccins, climat, élections américaines, etc.).
 
@@ -27,7 +28,7 @@ Le score va de 0 à 8, selon le nombre de réponses qui s'écartent de la réali
 
 Tout le dashboard consiste ensuite à comparer ces trois groupes sur des dimensions très différentes de la vie quotidienne.
 
-**Organisation du dashboard**
+## **Organisation du dashboard**
 
 Le dashboard est découpé en 5 onglets, comme cinq angles pour regarder la même question.
 
@@ -47,7 +48,7 @@ Positionnement gauche/droite, vote en 2022, optimisme et opinions sur huit sujet
 Fréquence d'usage de chaque média et confiance accordée aux journalistes, experts, influenceurs, anonymes ou proches. La confiance se déplace des figures d'autorité vers des sources plus « horizontales », mais celle accordée aux proches reste stable dans tous les groupes.
 
 
-**Les données**
+## **Les données**
 
 **Source :** enquête Les Français et l'information, ARCOM, 2024 (base anonymisée, issue de l'open data).
 
@@ -57,7 +58,7 @@ Fréquence d'usage de chaque média et confiance accordée aux journalistes, exp
 
 Le dashboard est développé en **Python** avec **Streamlit** pour l'interface,**pandas** et **NumPy** pour le traitement des données, et **Plotly** pour les graphiques interactifs.
 
-**Contexte du projet**
+## **Contexte du projet**
 
 Ce projet a été réalisé à Centrale Marseille dans le cadre de l'Open Data University, un programme créé par Latitudes qui invite des étudiants à s'emparer de données ouvertes pour en tirer des analyses utiles et accessibles.
 
